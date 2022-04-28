@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Kisii University</title>
+
+<style >
+.split{
+height: 100%;
+width: 50%;
+position: fixed;
+z-index: 1;
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+.staff{
+left: 0;
+}
+.student{
+right:0;
+}
+</style>
+</head>
+<body>
+  <div class="split">
+        <div class="staff">
+         <form action="staff_login.jsp" method="post">
+             <button>Staff</button>
+         </form>
+        </div>
+
+
+        <div class="student">
+            <form action="student_login.jsp" method="post">
+                <button>Student</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
